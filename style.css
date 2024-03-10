@@ -1,0 +1,162 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#hr1 {
+    border: 1px solid rgb(107, 75, 223);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#go-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    background-color: rgba(187, 185, 185, 0.611);
+    color: black;
+    border-radius: 10px;
+    width: 40px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#img1{
+    transition: box-shadow .3s;
+}
+
+#img1:hover{
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.601);
+}
+
+#productpage{
+    margin: 50px 0;
+}
+
+#producttitle{
+    text-align: center;
+    margin: 40px 0;
+}
+.productgallery{
+    margin: 50px 0;
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productleft{
+    width: 50%;
+    height: 100%;
+    padding: 10px 5px;
+    /* background-color: black; */
+}
+
+.productright{
+    width: 50%;
+    height: 100%;
+    padding: 10px 5px;
+    /* background-color: blue; */
+}
+
+.topleft{
+    width: 100%;
+    display: flex;
+    height: 50%;
+}
+
+.bottomleft{
+    width: 100%;
+    height: 50%;
+}
+
+.topright{
+    width: 100%;
+    height: 50%; 
+}
+
+.bottomright{
+    width: 100%;
+    display: flex;
+    height: 50%;
+}
+
+.halfhalf{
+    width: 50%;
+    height: 95%;
+    /* background-color: aquamarine; */
+    margin: 0 10px;
+    background-image: url(basin1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.full{
+    width: 100%;
+    height: 95%;
+    /* background-color: beige; */
+    background-image: url(basin2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ourproducts{
+    display: none;
+}
+
+.productpagephone{
+    width: 100%;
+    height: 40vh;
+    padding: 30px;
+    margin: 5px 0;
+    display: flex;
+    display: none;
+}
+
+.leftp{
+    width: 70%;
+    /* background-color: aquamarine; */
+    background-image: url(basin1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#vanity{
+    background-image: url(vanity.jpg);
+}
+
+#sinks{
+    background-image: url(home.jpeg);
+}
+
+.rightp{
+    width: 30%;
+    /* background-color: rgb(127, 159, 255); */
+    background-color: rgba(187, 185, 185, 0.611);
+    text-align: center;
+    display: block;
+    line-height: 2;
+    padding: 40px;
+}
+
+@media (max-width: 600px) {
+    #productpage{
+        display: none;
+    }
+
+    .ourproducts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #producttitle{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .productpagephone{
+        display: flex;
+    }
+}
